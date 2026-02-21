@@ -9,14 +9,13 @@ Features
 Patient profile input (age, last dose date and conditions)
 Rule-based eligibility logic
 Status indicators:
+
 🟢 Up to Date
 🟡 Due Soon
 🔴 Overdue
 
 Built With:
-Java 
-HTML5
-Custom CSS
+Java, HTML5 and Custom CSS
 
 Team
 - Jeremy Fuentes Rivera  – jfuentesriveraramire@rrc.ca
