@@ -19,5 +19,6 @@ HTML5
 Custom CSS
 
 Team
-Jeremy Fuentes Rivera  – 
+- Jeremy Fuentes Rivera  – jfuentesriveraramire@rrc.ca
+
 
