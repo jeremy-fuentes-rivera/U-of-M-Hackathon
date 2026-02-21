@@ -3,9 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>Smart Vaccine Reminder</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-  
 <body>
-  
+    <div class="form-container">
+        <h2>🩺 Smart Vaccine Reminder</h2>
+        <form action="" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" >
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" max="120" required>
+
+            <label for="flu_date">Last Influenza Dose:</label>
+            <input type="date" id="flu_date" name="influenza_date" required>
+
+            <label for="covid_date">Last Covid Dose:</label>
+            <input type="date" id="covid_date" name="covid_date" required>
+
+            <label for="tdap_date">Last Tdap Dose:</label>
+            <input type="date" id="tdap_date" name="tdap_date" required>
+
+            <label>Medical Conditions:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" name="conditions[]" value="pregnant"> Pregnant<br>
+                <input type="checkbox" name="conditions[]" value="chronic"> Chronic illness<br>
+                <input type="checkbox" name="conditions[]" value="immuno"> Immunocompromised<br>
+            </div>
+
+            <button type="submit">Check Vaccine Status</button>
+        </form>
+    </div>  
 </body>
 </html>
